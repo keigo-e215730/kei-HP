@@ -1,96 +1,100 @@
 <!DOCTYPE html>
 <html lang="ja">
-
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-
-    <title>kei_HP</title>
-    <style>
-      h1 {
-        font-weight: normal;
-        padding-bottom: 10px;
-        text-align: center;
-        position: relative;
-        margin: 0 0 30px 0;
-        letter-spacing: 5px;
-      }
-
-      p {
-        width: 50%;
-        line-height: 2;
-        display: inline-block;
-        background-color: #03A9F4;
-        padding: 20px;
-        position: relative;
-        z-index: 999;
-        margin: 50px 0 0;
-        color: #fff;
-        letter-spacing: 2px;
-      }
-
-      a {
-        color: #fff;
-        text-decoration: none;
-        background-color: #F44336;
-        display: block;
-        padding: 15px 25px;
-        border-radius: 5px;
-        box-shadow: 0 4px 0 0 #9e2b23;
-        font-weight: bold;
-        width: 300px;
-        text-align: center;
-        margin: 110px auto 0;
-        letter-spacing: 2px;
-      }
-
-      h1::after {
-        content: "";
-        display: block;
-        border-bottom: solid 5px #2196F3;
-        position: absolute;
-        width: 100px;
-        right: 0;
-        left: 0;
-        margin: auto;
-        bottom: -5px;
-      }
-
-      html {
-        background-color: #a8e4ff;
-      }
-
-      body {
-        background-color: #fff;
-        padding: 30px 30px 30px;
-        max-width: 700px;
-        margin: 20px auto;
-        box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.18);
-        border-radius: 3px;
-        position: relative;
-      }
-
-      img {
-        height: 300px;
-        display: inline-block;
-        vertical-align: top;
-        position: absolute;
-        right: 30px;
-      }
-    </style>
+    <meta name="description" content="This page is kei's homepage.">
+    <meta name="viewport" content="width=device-width,initial-scale=1,0">
+    <title>【kei-HP】</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   </head>
-
   <body>
-    <h1>keiのHP</h1>
-    <p>「自己紹介」...某大学工学部工学科知能情報コース(ie)１年/ぼくりり好きです、、あ、寮生の方、アカペラサークルの方、システム管理部の方も仲良くしてください♪</p>
-    <img src="test.jpg" alt="">
-    <a href="https://www.youtube.com/channel/UC7l6QQIAgRWyrKJpYy-9vCg">My YouTube Channel</a>
+    <header>
+      <hgroup>
+        <h1 class="white-text">kei's HP</h1>
+        <div id="alert" class="modal">
+          <div class="modal-content black-text">
+            <h4>Caution</h4>
+            <p>
+              This website is created by a person who has been programming for less than a year. Please understand that the level of completion is low.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button id="close" class="btn btn-large">OK</button>
+          </div>
+        </div>
+        <h4 class="white-text"><img src="prof_icon.jpg" alt="" style="width: 20%; vertical-align: middle; margin-right: 20px;">This page is kei's homepage.</h4>
+      </hgroup>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">home</a>
+          </li>
+          <li>
+            <a href="#">blog</a>
+          </li>
+          <li>
+            <a href="#">gallery</a>
+          </li>
+          <li>
+            <a href="#">about</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <article>
+      <p class="white-text">
+        I'm a first year student of IT course (ie) at a certain university, I like Bokuriri (Dios), I'm a dormitory student, I'm in the system administration department and an a-cappella club, my dream is to be an in-house NEET at a purple company.
+      </p>
+    </article>
+    <br>
+    <footer>
+      <nav>
+        <h3>Navigation</h3>
+        <ul>
+          <li>
+            <a href="/" class="blue white-text">Home</a>
+          </li>
+          <li>
+            <a href="/O'REILLY/" class="blue white-text">O'REILLY</a>
+          </li>
+          <li>
+            <a href="/dotinstall/" class="blue white-text">dotinstall</a>
+          </li>
+          <li>
+            <a href="/html勉強byYoutube/" class="blue white-text">html_practice by YouTube</a>
+          </li>
+          <li>
+            <a href="#" class="blue white-text">About kei</a>
+          </li>
+        </ul>
+      </nav>
+      <br>
+      <br>
+      <section>
+        <h3 class="white-text">Content this pages</h3>
+        <ul>
+          <li>
+            <a href="https://twitter.com/kei11235813" class="black white-text">Twitter</a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/channel/UC7l6QQIAgRWyrKJpYy-9vCg" class="black white-text">YouTube</a>
+          </li>
+          <li>
+            <a href="https://github.com/keigo-e215730" class="black white-text">github</a>
+          </li>
+          <li>
+            <a href="#" class="black white-text">Site Map</a>
+          </li>
+        </ul>
+      </section>
+      <p class="copyright white-text">Copyright ©︎ 2021 jquery</p>
+    </footer>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="myscript.js"></script>
+        <script src="myscript.js"></script>
   </body>
-
-  <body>
-    <a class="twitter-timeline" href="https://twitter.com/kei11235813?ref_src=twsrc%5Etfw">Tweets by kei11235813</a> 
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  </body>
-
 </html>
